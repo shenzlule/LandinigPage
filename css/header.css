@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     height: 45px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
     /* align-content: center; */
     margin-top: 10px;
 }
