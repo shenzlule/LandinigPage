@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     /* border: 1px solid orange; */
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -46,4 +46,17 @@ align-items: center;
 
 .weBuildText{
     color: rgb(142,142,143);
+}
+
+.webuild_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.left{
+    height:370px;
+    margin-top: 160px;
+    align-items: center;
 }

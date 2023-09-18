@@ -83,3 +83,16 @@
     font-size: 40px;
     font-weight: 100;
 }
+
+.serImgg{
+    width: 55px;
+    height: 90px;
+    margin-top: 150px;
+}
+
+
+.serSce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
