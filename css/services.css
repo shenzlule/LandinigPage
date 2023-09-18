@@ -9,6 +9,7 @@
    /* align-items: center; */
    /* border: 2px solid purple; */
    text-align: start;
+   justify-self: center;
 }
 .serviceText{
     color: rgb(142,142,143);
@@ -73,6 +74,8 @@
     width: 300px;
     margin-top: 12px;
     height: 300px;
+    align-self: center;
+    justify-self: center;
    
 }
 .services23{

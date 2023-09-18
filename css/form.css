@@ -42,6 +42,8 @@ form input{
     align-items: center;
     width: inherit;
     height: 500px;
+    align-self: center;
+    justify-self: center;
    
 }
 

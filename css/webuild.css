@@ -58,6 +58,8 @@ align-items: center;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .left{
