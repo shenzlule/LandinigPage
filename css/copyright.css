@@ -35,10 +35,15 @@
 
 .input_plus_btn{
     background-color: white;
-    padding: 2px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+
 
 }
 .input_plus_btn input{
    border: none;
 
 }
+
+

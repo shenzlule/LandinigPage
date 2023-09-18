@@ -54,6 +54,8 @@
 
   .input_plus_btn  img{
   height: 25px;
+  align-self: center;
+  justify-self: center;
 
   }
 
