@@ -63,5 +63,11 @@
 .input_plus_btn::placeholder {
     text-align: center;
     }
+
+.line{
+    margin-top: 50px;
+    height: 2px;
+    background-color: rgb(142,142,143);
+}
     
   
