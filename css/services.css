@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     color:white;
-    height:440px;
+    height:auto;
      align-self: center;
     justify-content: flex-start;
-    width: 900px;
+    width: auto;
    /* align-items: center; */
    /* border: 2px solid purple; */
    text-align: start;
@@ -35,9 +35,10 @@
 .services2{
    display: flex;
    flex-direction: row;
-   height: 320px;
+   height: auto;
    align-items: center;
-   width: inherit;
+   justify-content: center;
+   width: auto;
    /* border: 2px solid gray; */
 }
 .services21{
@@ -46,6 +47,7 @@
     height: fit-content;
     margin-right: 15px;
     width: 300px;
+    margin-top: 12px;
     height: 300px;
    
     /* flex-basis: 40%; */
@@ -69,6 +71,7 @@
     margin-right: 15px;
     /* flex-basis: 40%; */
     width: 300px;
+    margin-top: 12px;
     height: 300px;
    
 }
@@ -78,6 +81,7 @@
     height: fit-content;
     margin-right: 10px;
     width: 300px;
+    margin-top: 12px;
     height: 300px;
    
     /* flex-basis: 40%; */
@@ -95,9 +99,12 @@
     margin-top: 150px;
 }
 
+.serImgg2{
 
+}
 .serSce{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
 }

@@ -1,16 +1,17 @@
 .expertStart{
-    width: inherit;
+    width: auto;
 
-    margin-top: 20px;
+    margin-top: 60px;
     
-    height: 500px;
+    height: auto;
   display: flex;
   flex-direction: row;
-  justify-content:end;
+  justify-content:center;
   align-items:center;
   align-content: flex-end;
   color: white;
   /* border: 2px solid green; */
+  
 }
 
 .button {
@@ -35,17 +36,20 @@
     flex-direction: column;
     /* margin-left: 300px; */
     /* border: 2px solid red; */
-    width: 400px;
-    height: inherit;
+    width: auto;
+    height: auto;
     align-items: start;
     justify-content: center;
+    margin-bottom: 20px;
 
    
 
 }
 .expertStart2{
-   
+     
     /* border: 2px solid wheat; */
+    width: 800px;
+    height: auto;
 
 }
 

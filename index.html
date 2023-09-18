@@ -7,6 +7,8 @@
     <title>Landing Page Design</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/expert.css">
@@ -29,24 +31,24 @@
     <div class="mainContainer">
 
          <!-- Header div -->
-        <div class="header">
+        <div class=" header">
             <img src="./images/log.png" alt="" class="logo">
             <button class="gradient-button">Give us a call</button>
         </div>
 
         <!-- Expert Startup section -->
-        <div class="expertStart">
-            <div class="expertStart1">
-                 <div class="expertStart11">
+        <div class="row expertStart">
+            <div class="col-6  col-sm-12 expertStart1">
+                 <div class="col expertStart11">
                     <p class="consulting">Expert Startup <br>Consulting</p>
                  </div>
-                 <div class="expertStart12">
+                 <div class="col expertStart12">
                     <p class="unlock">Unlock Your Funding Potential with Tailored <br>
                          Pitch Deck and Business Plan</p>
                  </div>
                  <button class="button">Give us a call</button>
             </div>
-            <div class="expertStart2">
+            <div class="col-6  col-sm-12 expertStart2">
                 <img src="./images/numpic.png" alt="" class="numImg">
             </div>
         </div>
@@ -55,15 +57,15 @@
         <!-- Services div -->
 
         <section class="serSce">
-            <img src="./images/side_img.png" alt="" class="serImgg">
+            <img src="./images/side_img.png" alt="" class="serImgg serImgg1">
            
-            <div class=" container services">
+            <div class="services">
           
             <p class="seriveHeader">Services</p>
            
-           <div class="services2">
+           <div class="row services2">
 
-            <div class="services21">
+            <div class="col-4 col-sm-12 services21">
                 <div class="listheader">
                    <img src="./images/iconservice.png" alt="">
                    <h4>PITCH DECK</h4>
@@ -82,7 +84,7 @@ value proposition.
                    </p>
                    <button class="buttonServices">Read more</button>
             </div>
-            <div class=" services22">
+            <div class=" col-4 col-sm-12 services22">
                 <div class="listheader">
                     <img src="./images/plan_png.png" alt="">
                     <h4>BUSINESS PLAN</h4>
@@ -122,7 +124,7 @@ value proposition.
             </div>
            </div>
         </div>
-        <img src="./images/side_img.png" alt="" class="serImgg">
+        <img src="./images/side_img.png" alt="" class="serImgg serImgg2">
     </section>
      
 
@@ -165,8 +167,8 @@ value proposition.
                 future.Together we planned,executed and scaled our product.
                 </p>
             </div>
-            <div class="weBuild2">
-              <div class="card1">
+            <div class="row weBuild2">
+              <div class="col-4 col-sm-12 card1">
                 <p id="para">Maecenas non ante sit amet ex
                     scelerisque facilisis. Sed at orci maximus,
                     suscipit nunc, elementum arcu. the Fusce
@@ -174,13 +176,13 @@ value proposition.
     
                     <div class="divlist">
                       <img src="./images/c1.png" alt="" class="cardImage">
-                      <p><b>Mr Jnon Smith</b></p>
+                      <p><b>Mr Jhon Smith</b></p>
                       <p  id="para"> CEO of Omni Tech</p>
                       <img src="./images/s1.png" alt="" class="stars">
                     </div>
               </div>
 
-              <div class="card1">
+              <div class="col-4 col-sm-12 card1 borderCard">
                 <p id="para">Maecenas non ante sit amet ex
                     scelerisque facilisis. Sed at orci maximus,
                     suscipit nunc, elementum arcu. the Fusce
@@ -188,12 +190,12 @@ value proposition.
     
                     <div class="divlist">
                       <img src="./images/c2.png" alt="" class="cardImage">
-                      <p><b>Mr Jnon Smith</b></p>
+                      <p><b>Mr Jhon Smith</b></p>
                       <p id="para"> CEO of DataSoft</p>
                       <img src="./images/s2.png" alt="" class="stars">
                     </div>
               </div>
-              <div class="card1">
+              <div class="col-4 col-sm-12 card1">
                 <p id="para">Maecenas non ante sit amet ex
                     scelerisque facilisis. Sed at orci maximus,
                     suscipit nunc, elementum arcu. the Fusce
@@ -201,7 +203,7 @@ value proposition.
     
                     <div class="divlist">
                       <img src="./images/c3.png" alt="" class="cardImage">
-                      <p><b>Mr Jnon Smith</b></p>
+                      <p><b>Mr Jhon Smith</b></p>
                       <p id="para"> CEO of Carft Coded</p>
                       <img src="./images/s3.png" alt="" class="stars">
                     </div>
@@ -231,7 +233,7 @@ value proposition.
 
         <!-- GEt in touch -->
 
-          <div class="getInTouch">
+          <div class="col getInTouch">
             <h1>Get in Touch</h1>
             <span><img src="./images/getin_img.png" alt=""></span>
                 <p  id="para">93% of traffic begins with a query. Even with a high number of <br>
@@ -283,12 +285,12 @@ value proposition.
           </div>
 
    <!-- footer bottom -->
-          <div class="footerBottom">
-            <ul class="footerlst">
-                <li>About Us</li>
-                <li>Disclaimer</li>
-                <li>Privacy policy</li>
-                <li>Affiliate policy</li>
+          <div class=" footerBottom">
+            <ul class=" footerlst">
+                <li class="">About Us</li>
+                <li class="">Disclaimer</li>
+                <li class="">Privacy policy</li>
+                <li class="">Affiliate policy</li>
             </ul>
 
            <div class="line">

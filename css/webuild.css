@@ -15,12 +15,17 @@
     justify-content: space-around;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid orange; */
+    
     width: 300px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     margin-right: 10px;
+    margin-top: 13px;
+}
+
+.borderCard{
+    border: 1px solid orange;
 }
 
 .cardImage{

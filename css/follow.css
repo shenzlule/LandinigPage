@@ -32,6 +32,10 @@
 .iconsFooter_img{
     display: flex;
     flex-direction: row;
+    /* border: 1px solid orange; */
+    justify-content: center;
+    align-content: center;
+
 }
 
 .follow  h3{
